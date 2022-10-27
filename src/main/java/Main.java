@@ -1,7 +1,5 @@
 import SegmentDisplay.FullDisplayer;
-import SegmentDisplay.SegmentDisplayer;
 
-import java.io.Console;
 import java.util.Scanner;
 
 public class Main {
