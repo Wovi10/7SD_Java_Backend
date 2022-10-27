@@ -10,8 +10,9 @@ public class Main {
         do {
             System.out.println("Enter a number to display (Q to exit): ");
             answer = scanner.nextLine();
-            if (answer.equals("Q") || answer.equals("q"))
+            if (answer.equalsIgnoreCase("q")){
                 break;
+            }
             displayer.showNumber(answer);
         }while(true);
     }
